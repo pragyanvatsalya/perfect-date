@@ -121,6 +121,16 @@
 </head>
 
 <body class="gradient-bg min-h-screen">
+
+    <audio id="voice">
+  <source src="voice_message.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+  document.getElementById("voice").play();
+}, { once: true });
+</script>
     
     <!-- Floating Hearts Background -->
 
