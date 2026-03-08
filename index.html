@@ -121,9 +121,18 @@
 </head>
 
 <body class="gradient-bg min-h-screen">
+    
     <audio autoplay>
   <source src="https://drive.google.com/uc?export=download&id=17FqRQWrFhwZPEcNxU4cxwLNg_CQQLQ94" type="audio/mpeg">
     </audio>
+
+    <script>
+window.onload = function(){
+  let audio = document.getElementById("voice");
+  audio.muted = false;
+  audio.play();
+}
+    </script>
 
     <!-- Floating Hearts Background -->
 
